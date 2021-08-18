@@ -34,6 +34,7 @@ require_once "database.php"
         }
         ?>
     </table>
+    <a href="superheroes_index.php"><button>Home</button></a>
     <a href="superheroes_edit.php?ID=<?php echo $ID ?>"><button>Edit</button></a>
     <a href="superheroes_delete.php?ID=<?php echo $ID ?>"><button>Delete</button></a>
 </body>
